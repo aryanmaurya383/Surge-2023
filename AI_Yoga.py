@@ -22,7 +22,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 
-# # Reference image
+# # Reference images
 # # src="https://i.imgur.com/3j8BPdc.png"
 
 #
