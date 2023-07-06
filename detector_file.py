@@ -903,7 +903,7 @@ def get_detected_image(perfect_pose_landmarks, detected_image):
         # print("YYES")
         # score=1
         score *= 100
-        print(score)
+        # print(score)
         mp_drawing.draw_landmarks(detected_image, detecting_pose, mp_pose.POSE_CONNECTIONS,
                                   mp_drawing.DrawingSpec(
                                       color=(245, 255, 66), thickness=2, circle_radius=2),
@@ -1033,10 +1033,10 @@ def get_detected_image(perfect_pose_landmarks, detected_image):
 #     cv2.destroyAllWindows()
 
 # %%
-image = cv2.imread("./tst2.jpg")
-img1 = cv2.imread("./tst6.png")
-lnd_tree_pose = return_detect_landmarks(image)
-detected_img, score = get_detected_image(lnd_tree_pose, img1)
-cv2.imshow("img", detected_img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# image = cv2.imread("./tst2.jpg")
+# img1 = cv2.imread("./tst6.png")
+# lnd_tree_pose = return_detect_landmarks(image)
+# detected_img, score = get_detected_image(lnd_tree_pose, img1)
+# cv2.imshow("img", detected_img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
